@@ -1,135 +1,225 @@
-/* Defina a fonte do texto */
 body {
   font-family: "Courier New", monospace;
-  background-color: #1a1a1a; /* Fundo cinza escuro como o Pip-Boy */
-  color: #00FF00; /* Texto verde inspirado no Pip-Boy */
+  background-color: #000; 
+  color: #00FF00;
   margin: 0;
   padding: 0;
 }
-
-/* Estilize o cabeçalho */
 header {
   text-align: center;
   padding: 20px;
 }
-
 h1 {
   font-size: 36px;
-  color: #00FF00; /* Texto verde inspirado no Pip-Boy */
 }
-
-/* Estilize o menu de navegação */
-nav {
-  background-color: #1a1a1a;
+nav ul {
+  list-style: none;
   text-align: center;
   padding: 10px;
 }
-
-ul {
-  list-style: none;
-}
-
 li {
   display: inline;
   margin: 0 10px;
 }
-
 a {
   text-decoration: none;
   color: #00FF00;
   transition: 0.3s;
 }
-
 a:hover {
   border-bottom: 2px solid #00FF00;
 }
-
-/* Estilize as seções de projetos */
 #projects {
   padding: 40px;
 }
-
 h2 {
   color: #00FF00;
 }
-
 ul li {
   border: 1px solid #00FF00;
-  margin: 20px 0;
   padding: 20px;
-  background-color: #1a1a1a;
+  background-color: #000;
 }
-
 h3 {
   color: #00FF00;
 }
-
 p {
   color: #00FF00;
 }
-
-/* Estilize o rodapé */
 footer {
-  background-color: #1a1a1a;
+  background-color: #000;
   text-align: center;
   padding: 10px;
 }
-
-/* Estilize links no rodapé */
 footer a {
   color: #00FF00;
   text-decoration: none;
 }
-
 footer a:hover {
-  border-bottom: none;
+  text-decoration: underline;
 }
-
-/* Estilize botões personalizados */
-.button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #00FF00;
-  color: #000;
+#pip-boy-button {
+  background-color: #00FF00; 
+  color: #000; 
   border: none;
-  border-radius: 5px;
+  padding: 10px 20px;
   font-size: 16px;
-  text-transform: uppercase;
+  border-radius: 5px;
   cursor: pointer;
-  transition: 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.pip-boy-button {
+  background-color: #000; 
+  color: #00FF00; 
+  border: 2px solid #00FF00; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+.pip-boy-button:hover {
+  background-color: #00CC00; 
+}
+#social-buttons {
+  position: absolute;
+  right: 0;
+  top: 100%; 
+  background-color: #000;
+  padding: 10px;
+  border: 1px solid #00FF00;
+  border-top: none; 
+  display: flex;
+  flex-direction: column;
+  
+}
+#social-buttons a {
+  color: #00FF00;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+#social-buttons a:hover {
+  text-decoration: underline;
+}
+#pip-boy-button {
+  background-color: #000; 
+  color: #00FF00; 
+  border: 2px solid #00FF00; 
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+}
+#pip-boy-button:hover {
+  background-color: #00CC00; 
+}
+#social-buttons {
+  position: absolute;
+  right: 0;
+  top: 100%; 
+  background-color: #000; 
+  padding: 10px;
+  border: 1px solid #00FF00; 
+  border-top: none; 
+  display: flex;
+  flex-direction: column;
+}
+#social-buttons a {
+  color: #00FF00; 
+  text-decoration: none;
+  padding: 5px; 
+  border: 1px solid #00FF00; 
+  background-color: #000; 
+  border-radius: 5px;
+  margin-bottom: 10px; 
+  text-align: center;
+}
+#social-buttons a:hover {
+  background-color: #00FF00; 
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #00FF00; 
+}
+#project-1-pip-boy {
+  text-align: center;
+  padding: 20px;
+}
+#pip-boy img {
+  display: block;
+  margin: 0 auto;
+}
+#skills {
+  text-align: center;
+  padding: 20px;
+}
+#skills h2 {
+  font-size: 24px;
+  color: #00FF00; 
+  margin-bottom: 20px;
+}
+#skills li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+#skills h3 {
+  font-size: 18px;
+  color: #00FF00; 
+}
+#skills p {
+  font-size: 16px;
+  color: #00FF00; 
+}
+body {
+  font-family: "Courier New", monospace;
+  background-color: #000; 
+  color: #00FF00; 
+  margin: 0;
+  padding: 0;
+}
+#projects {
+  padding: 40px;
+}
+#skills {
+  padding: 20px;
+}
+#certificate-list {
+  padding: 20px;
+}
+h2,
+#skills h3,
+#projects h2,
+#certificate-list h2,
+#certificate-list h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+#all-projects ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+#all-projects li h3,
+#all-projects li p {
+  text-align: center;
+}
+#all-projects li a {
+  display: block; 
+  text-align: center;
 }
 
-.button:hover {
-  background-color: #009900; /* Verde mais escuro inspirado no Fallout 4 */
-  color: #fff;
-}
 
-/* Adicione ícones para botões (por exemplo, um ícone de seta para baixo para downloads) */
-.button.icon {
-  padding-left: 30px;
-  background-image: url("download-icon.png");
-  background-position: 10px 50%;
-  background-repeat: no-repeat;
-}
 
-/* Adicione efeitos de paralaxe a elementos específicos (opcional) */
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-/* Adicione animações a elementos específicos (opcional) */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
-.animated {
-  animation: fadeIn 1s ease-in-out;
-}
