@@ -1,7 +1,3 @@
-Claro, aqui está um exemplo de um README básico para um projeto de portfólio:
-
----
-
 # Meu Portfólio
 
 Este é o repositório do meu portfólio, onde compartilho informações sobre mim, meus projetos, certificados e habilidades.
