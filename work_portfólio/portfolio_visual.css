@@ -1,0 +1,135 @@
+/* Defina a fonte do texto */
+body {
+  font-family: "Courier New", monospace;
+  background-color: #1a1a1a; /* Fundo cinza escuro como o Pip-Boy */
+  color: #00FF00; /* Texto verde inspirado no Pip-Boy */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilize o cabeçalho */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #00FF00; /* Texto verde inspirado no Pip-Boy */
+}
+
+/* Estilize o menu de navegação */
+nav {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #00FF00;
+  transition: 0.3s;
+}
+
+a:hover {
+  border-bottom: 2px solid #00FF00;
+}
+
+/* Estilize as seções de projetos */
+#projects {
+  padding: 40px;
+}
+
+h2 {
+  color: #00FF00;
+}
+
+ul li {
+  border: 1px solid #00FF00;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+h3 {
+  color: #00FF00;
+}
+
+p {
+  color: #00FF00;
+}
+
+/* Estilize o rodapé */
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilize links no rodapé */
+footer a {
+  color: #00FF00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  border-bottom: none;
+}
+
+/* Estilize botões personalizados */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00FF00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #009900; /* Verde mais escuro inspirado no Fallout 4 */
+  color: #fff;
+}
+
+/* Adicione ícones para botões (por exemplo, um ícone de seta para baixo para downloads) */
+.button.icon {
+  padding-left: 30px;
+  background-image: url("download-icon.png");
+  background-position: 10px 50%;
+  background-repeat: no-repeat;
+}
+
+/* Adicione efeitos de paralaxe a elementos específicos (opcional) */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Adicione animações a elementos específicos (opcional) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation: fadeIn 1s ease-in-out;
+}
