@@ -19,11 +19,10 @@ Meu portfólio é uma página da web que serve como uma apresentação pessoal e
 - HTML
 - CSS
 - JavaScript
-- [Adicione qualquer outra tecnologia ou biblioteca utilizada no projeto]
 
 ## Implantação
 
-Meu portfólio está implantado na plataforma [insira a plataforma de hospedagem]. Você pode acessá-lo em [insira o link para a implantação].
+Meu portfólio está implantado na plataforma GitHub. Você pode acessá-lo em https://victorgsoutoxp.github.io/portfolio/#como-executar-localmente.
 
 ## Como Executar Localmente
 
@@ -38,7 +37,7 @@ Se você gostaria de contribuir com alguma melhoria ou correção, fique à vont
 
 ## Contato
 
-Você pode me encontrar em [insira seu email ou outra forma de contato].
+Você pode me encontrar em victorgsouto20@gmail.com
 
 ## Licença
 
@@ -46,4 +45,3 @@ Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE)
 
 ---
 
-Observe que este é apenas um exemplo de um README para um projeto de portfólio. Você deve personalizá-lo de acordo com as informações, tecnologias e detalhes específicos do seu próprio projeto. Certifique-se de atualizar os links, contatos e informações relevantes.
